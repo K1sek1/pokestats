@@ -1,0 +1,47 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.tbl > * > * * {
+  height: 20;
+  padding: 0;
+}
+
+.col {
+  float: left;
+}
+.col * {
+  display: block;
+}
+
+.head * {
+  width: 32;
+}
+.bs * {
+  width: 40;
+}
+.iv * {
+  width: 32;
+}
+
+.header * {
+  font-size: x-small;
+  text-align: center;
+  border: none;
+  background-color: initial;
+}
+.body * {
+  text-align: right;
+}
+
+.dummy {
+  height: 0;
+  border: none;
+  background-color: initial;
+}
