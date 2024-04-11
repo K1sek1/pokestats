@@ -1,0 +1,54 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.ringo {
+  width: 256;
+  height: 256;
+  image-rendering: pixelated;
+}
+
+.num {
+  width: 36;
+  text-align: right;
+}
+.iv {
+  width: 24;
+}
+.mltpl {
+  width: 32;
+}
+
+.spns {
+  float: right;
+  margin: 0px;
+}
+.btn {
+  width: 20;
+  padding: 0;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 2px;
+  background: initial;
+}
+.ntr {
+  float: left;
+}
+.spn {
+  height: 10;
+  font-size: x-small;
+}
+
+th {
+  font-size: small;
+}
+
+table {
+  text-align: center;
+}
