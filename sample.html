@@ -1,0 +1,110 @@
+<html>
+
+<head>
+  <title>リンゴ？</title>
+</head>
+
+<body>
+  <p><img class="ringo" src="images/aka.png" alt="ringo"></p>
+
+  <p>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th>種族値</th>
+        <th>個体値</th>
+        <th>努力値</th>
+        <th>性格</th>
+        <th>実数値</th>
+        <th>補正</th>
+      </tr>
+    </thead>
+    <tbody id="statsTbl">
+      <tr>
+        <th>H</th>
+        <td><input class="num bs" type="number" data-index="0" value="0" min="0" /></td>
+        <td>
+          <input class="num iv" type="number" data-index="0" value="31" min="0" max="31" />
+          <form class="spns">
+            <div><input class="btn spn up" type="button" data-index="0" value="+" /></div>
+            <div><input class="btn spn dwn" type="button" data-index="0" value="-" /></div>
+          </form>
+        </td>
+        <td><input class="num ev" type="number" data-index="0" value="0" step="4" min="0" max="252" /></td>
+        <td>
+          <input class="btn ntr ntrPg" type="button" data-index="0" value="+" />
+          <input class="btn ntr ntrNg" type="button" data-index="0" value="-" />
+        </td>
+        <td><input class="num sts" type="number" data-index="0" value="0" min="0" /></td>
+        <td><input class="num mltpl" type="number" data-index="0" value="1" min="0" /></td>
+      </tr>
+      <tr>
+        <th>A</th>
+        <td><input class="num bs" type="number" data-index="1" value="0" min="0" /></td>
+        <td><input class="num iv" type="number" data-index="1" value="31" min="0" max="31" /></td>
+        <td><input class="num ev" type="number" data-index="1" value="0" step="4" min="0" max="252" /></td>
+        <td>
+          <input class="btn ntr ntrPg" type="button" data-index="1" value="+" />
+          <input class="btn ntr ntrNg" type="button" data-index="1" value="-" />
+        </td>
+        <td><input class="num sts" type="number" data-index="1" value="0" min="0" /></td>
+        <td><input class="num mltpl" type="number" data-index="1" value="1" min="0" /></td>
+      </tr>
+      <tr>
+        <th>B</th>
+        <td><input class="num bs" type="number" data-index="2" value="0" min="0" /></td>
+        <td><input class="num iv" type="number" data-index="2" value="31" min="0" max="31" /></td>
+        <td><input class="num ev" type="number" data-index="2" value="0" step="4" min="0" max="252" /></td>
+        <td>
+          <input class="btn ntr ntrPg" type="button" data-index="2" value="+" />
+          <input class="btn ntr ntrNg" type="button" data-index="2" value="-" />
+        </td>
+        <td><input class="num sts" type="number" data-index="2" value="0" min="0" /></td>
+        <td><input class="num mltpl" type="number" data-index="2" value="1" min="0" /></td>
+      </tr>
+      <tr>
+        <th>C</th>
+        <td><input class="num bs" type="number" data-index="3" value="0" min="0" /></td>
+        <td><input class="num iv" type="number" data-index="3" value="31" min="0" max="31" /></td>
+        <td><input class="num ev" type="number" data-index="3" value="0" step="4" min="0" max="252" /></td>
+        <td>
+          <input class="btn ntr ntrPg" type="button" data-index="3" value="+" />
+          <input class="btn ntr ntrNg" type="button" data-index="3" value="-" />
+        </td>
+        <td><input class="num sts" type="number" data-index="3" value="0" min="0" /></td>
+        <td><input class="num mltpl" type="number" data-index="3" value="1" min="0" /></td>
+      </tr>
+      <tr>
+        <th>D</th>
+        <td><input class="num bs" type="number" data-index="4" value="0" min="0" /></td>
+        <td><input class="num iv" type="number" data-index="4" value="31" min="0" max="31" /></td>
+        <td><input class="num ev" type="number" data-index="4" value="0" step="4" min="0" max="252" /></td>
+        <td>
+          <input class="btn ntr ntrPg" type="button" data-index="4" value="+" />
+          <input class="btn ntr ntrNg" type="button" data-index="4" value="-" />
+        </td>
+        <td><input class="num sts" type="number" data-index="4" value="0" min="0" /></td>
+        <td><input class="num mltpl" type="number" data-index="4" value="1" min="0" /></td>
+      </tr>
+      <tr>
+        <th>S</th>
+        <td><input class="num bs" type="number" data-index="5" value="0" min="0" /></td>
+        <td><input class="num iv" type="number" data-index="5" value="31" min="0" max="31" /></td>
+        <td><input class="num ev" type="number" data-index="5" value="0" step="4" min="0" max="252" /></td>
+        <td>
+          <input class="btn ntr ntrPg" type="button" data-index="5" value="+" />
+          <input class="btn ntr ntrNg" type="button" data-index="5" value="-" />
+        </td>
+        <td><input class="num sts" type="number" data-index="5" value="0" min="0" /></td>
+        <td><input class="num mltpl" type="number" data-index="5" value="1" min="0" /></td>
+      </tr>
+    </tbody>
+  </table>
+  </p>
+
+  <link href="styles/style.css" rel="stylesheet" />
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
