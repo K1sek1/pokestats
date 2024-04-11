@@ -112,17 +112,27 @@ for (const elm of sts) {
 }
 
 function next(e) {
-  if (e.key === "Enter" || e.key === "Tab") {
+  if (e.key === "Enter") {
     const elm = this.parentElement;
     if (elm.parentElement.rowIndex < elm.parentElement.parentElement.rows.length)
       elm.parentElement.parentElement.rows[elm.parentElement.rowIndex].cells[elm.cellIndex].children[0].select();
     else
       this.blur();
+  } else if (e.key === "Tab") {
+    setTimeout(() => {
+      const elm = document.activeElement.parentElement.previousElementSibling;
+      if (elm.parentElement.rowIndex < elm.parentElement.parentElement.rows.length)
+        elm.parentElement.parentElement.rows[elm.parentElement.rowIndex].cells[elm.cellIndex].children[0].select();
+      else
+        document.activeElement.blur();
+    }, 0)
   }
 }
 function blur(e) {
   if (e.key === "Enter" || e.key === "Tab") {
-    this.blur();
+    setTimeout(() => {
+      document.activeElement.blur();
+    }, 0)
   }
 }
 function select() {
