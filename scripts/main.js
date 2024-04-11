@@ -112,7 +112,7 @@ for (const elm of sts) {
 }
 
 function next(e) {
-  if (e.key === 'Enter') {
+  if (e.key === "Enter" || e.key === "Tab") {
     const elm = this.parentElement;
     if (elm.parentElement.rowIndex < elm.parentElement.parentElement.rows.length)
       elm.parentElement.parentElement.rows[elm.parentElement.rowIndex].cells[elm.cellIndex].children[0].select();
@@ -121,7 +121,7 @@ function next(e) {
   }
 }
 function blur(e) {
-  if (e.key === 'Enter') {
+  if (e.key === "Enter" || e.key === "Tab") {
     this.blur();
   }
 }
