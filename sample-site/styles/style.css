@@ -1,0 +1,97 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 6.25vmin;
+  border-width: 0.390625vmin;
+  border-radius: 0.78125vmin;
+  background-color: initial;
+}
+body > * {
+  width: 100vmin;
+  margin: auto;
+}
+input[type="number"] {
+  text-align: right;
+}
+
+
+
+.label {
+  height: 9.375vmin;
+}
+.label * {
+  height: 9.375vmin;
+  float: left;
+}
+.pokeName {
+  width: 75%;
+  padding: 1.5625vmin;
+}
+.lv {
+  width: 25%;
+}
+.lv * {
+  width: 50%;
+}
+.lv div {
+  border: none;
+  text-align: right;
+}
+
+
+
+.tbl > * > * > * {
+  height: 9.375vmin;
+}
+
+.tbl > * {
+  float: left;
+  width: calc(40% / 3);
+}
+.tbl input:not([type="button"]) {
+  display: block;
+  width: 100%;
+}
+
+/*button*/
+.ntr > .body input {
+  float: left;
+  width: 50%;
+  height: 100%;
+  border-style: solid;
+}
+
+.header input:not([value]:not([type="text"])) {
+  text-align: center;
+  border: none;
+}
+
+*:not(.head) > .header input:not([value]:not([type="text"])) {
+  font-size: 80%;
+  font-weight: bold;
+}
+
+.head {
+  width: calc(20% / 3);
+}
+
+.header {
+  font-size: 75%;
+}
+
+
+
+.dummy {
+  width: 0;
+  height: 0;
+  border: none;
+}
