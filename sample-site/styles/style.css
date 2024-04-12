@@ -18,7 +18,7 @@ input[type="number"] {
   margin: auto;
 }
 .tbl * {
-  font-size: 4.6875dvw;
+  font-size: 4.6875vmin;
   border-width: 0.390625vmin;
 }
 
