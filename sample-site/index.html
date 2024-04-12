@@ -1,0 +1,150 @@
+<html>
+
+<head>
+  <title>sample</title>
+</head>
+
+<body>
+  <link href="styles/style.css" rel="stylesheet" />
+
+  <div class="label">
+    <input class="pokeName" type="text" placeholder="ポケモン名（任意）">
+    <div class="lv">
+      <div>Lv.</div>
+      <input type="number" value="50" min="1" max="100">
+    </div>
+  </div>
+  <div class="tbl">
+
+    <div class="head">
+      <div class="header"><input type="text"></div>
+      <div class="header">
+        <input type="text" value="H">
+        <input type="text" value="A">
+        <input type="text" value="B">
+        <input type="text" value="C">
+        <input type="text" value="D">
+        <input type="text" value="S">
+      </div>
+      <div class="header"><input type="text" value="計"></div>
+    </div>
+
+    <div class="bs">
+      <div class="header"><input type="text" value="種族値"></div>
+      <div class="body">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+      </div>
+      <div class="header"><input type="number" value="0" min="0"></div>
+      <input class="dummy" type="number">
+    </div>
+
+    <div class="iv">
+      <div class="header"><input type="text" value="個体値"></div>
+      <div class="body">
+        <input type="number" value="31" min="0" max="31">
+        <input type="number" value="31" min="0" max="31">
+        <input type="number" value="31" min="0" max="31">
+        <input type="number" value="31" min="0" max="31">
+        <input type="number" value="31" min="0" max="31">
+        <input type="number" value="31" min="0" max="31">
+      </div>
+      <div class="header"><input type="number"></div>
+      <input class="dummy" type="number">
+    </div>
+
+    <div class="ev">
+      <div class="header"><input type="text" value="努力値"></div>
+      <div class="body">
+        <input type="number" value="0" step="4" min="0" max="252">
+        <input type="number" value="0" step="4" min="0" max="252">
+        <input type="number" value="0" step="4" min="0" max="252">
+        <input type="number" value="0" step="4" min="0" max="252">
+        <input type="number" value="0" step="4" min="0" max="252">
+        <input type="number" value="0" step="4" min="0" max="252">
+      </div>
+      <div class="header"><input type="number" step="4" value="508" min="0" max="508"></div>
+      <input class="dummy" type="number">
+    </div>
+
+    <div class="ntr">
+      <div class="header"><input type="text" value="性格"></div>
+      <div class="body">
+        <div></div>
+        <div class="btn" data-value="1">
+          <input type="button" value="+">
+          <input type="button" value="-">
+        </div>
+        <div class="btn" data-value="1">
+          <input type="button" value="+">
+          <input type="button" value="-">
+        </div>
+        <div class="btn" data-value="1">
+          <input type="button" value="+">
+          <input type="button" value="-">
+        </div>
+        <div class="btn" data-value="1">
+          <input type="button" value="+">
+          <input type="button" value="-">
+        </div>
+        <div class="btn" data-value="1">
+          <input type="button" value="+">
+          <input type="button" value="-">
+        </div>
+      </div>
+      <div class="header"><input type="number"></div>
+      <input class="dummy" type="number">
+    </div>
+
+    <div class="sts">
+      <div class="header"><input type="text" value="実数値"></div>
+      <div class="body">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+      </div>
+      <div class="header"><input type="number"></div>
+      <input class="dummy" type="number">
+    </div>
+
+    <div class="mltpl">
+      <div class="header"><input type="text" value="補正"></div>
+      <div class="body">
+        <input type="number" value="1" min="0">
+        <input type="number" value="1" min="0">
+        <input type="number" value="1" min="0">
+        <input type="number" value="1" min="0">
+        <input type="number" value="1" min="0">
+        <input type="number" value="1" min="0">
+      </div>
+      <div class="header"><input type="number"></div>
+      <input class="dummy" type="number">
+    </div>
+
+    <div class="rslt">
+      <div class="header"><input type="text" value="補正後"></div>
+      <div class="body">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+        <input type="number" value="0" min="0">
+      </div>
+      <div class="header"><input type="number"></div>
+      <input class="dummy" type="number">
+    </div>
+
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
