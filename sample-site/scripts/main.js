@@ -1,2 +1,2 @@
 for (const elm of document.getElementsByClassName("dummy"))
-  elm.onfocus = () => this.blur();
+  elm.onfocus = () => elm.blur();
