@@ -332,14 +332,16 @@ for (const elm of selectAbles) {
 setTimeout(() => {
   for (const elm of bs) {
     sum(elm, 1, 0);
-    console.log("bs");
   }
   for (const elm of ev) {
     sum(elm, -1, 508);
-    console.log("ev");
   }
   move[2].value = move[0].value * move[1].value;
   outputAtkIndex();
   outputDefIndex();
   outputTextArea();
 }, 1);
+
+window.onload = () => {
+  alert("ページが読み込まれました。");
+};
