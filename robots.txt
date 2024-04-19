@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallow:
 
 Sitemap: https://k1sek1.github.io/pokestats/sitemap.xml
