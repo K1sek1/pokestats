@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://k1sek1.github.io/pokestats/sitemap.xml
